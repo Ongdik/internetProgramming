@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+}
+
+.articleRegistration {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.articleRegistration form {
+  display: flex;
+  flex-direction: column;
+}
+
+.articleRegistration label {
+  margin-bottom: 5px;
+}
+
+.articleRegistration input,
+.articleRegistration select,
+.articleRegistration textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.articleRegistration button {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.articleRegistration button:hover {
+  background-color: #8a2be2;
+}
