@@ -1,2 +1,2 @@
 # internetProgramming
-학교 인터넷 프로그래밍 실습 과제
+인터넷 프로그래밍 실습 과제
