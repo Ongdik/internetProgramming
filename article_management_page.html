@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>기사 관리 페이지</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./article_management_page_style.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="article_management_page.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="headerLogo"><a href="./main_page.html">뉴스</a></div>
+      <div class="headerSection">
+        <nav id="nav" class="gnbMenu">
+          <ul class="navDepth01">
+            <li class="li sport">
+              <div><a href="">스포츠</a></div>
+              <div class="depthBox02 latest">
+                <ul class="navDepth02">
+                  <li>
+                    <a href="">국내&nbsp;축구</a>
+                    <p>#1</p>
+                  </li>
+                  <li>
+                    <a href="">국내&nbsp;야구</a>
+                    <p>#2</p>
+                  </li>
+                  <li>
+                    <a href="">국내&nbsp;농구</a>
+                    <p>#3</p>
+                  </li>
+                  <li>
+                    <a href="">해외&nbsp;축구</a>
+                    <p>#4</p>
+                  </li>
+                  <li>
+                    <a href="">해외&nbsp;야구</a>
+                    <p>#5</p>
+                  </li>
+                  <li>
+                    <a href="">해외&nbsp;농구</a>
+                    <p>#6</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="li it">
+              <a href="">IT</a>
+            </li>
+
+            <li class="li it">
+              <a href="">경제</a>
+            </li>
+
+            <li class="li it">
+              <a href="">정치</a>
+            </li>
+
+            <li class="li it">
+              <a href="">건강</a>
+            </li>
+
+            <li class="li it">
+              <a href="">사회</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="menuLinks">
+          <a href="" class="article_classification">기사 분류 관리</a>
+          <a href="" class="article_management">기사 관리</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="container" class="wrapContainer">
+      <section>
+        <div class="type">
+          <span>분류</span>
+          <span>썸네일</span>
+          <span>제목</span>
+          <span>등록상태</span>
+          <span>최종수정일</span>
+          <span>기사취재일</span>
+        </div>
+        <div class="management">
+          <span>관리</span>
+        </div>
+      </section>
+
+      <ul>
+        <li>
+          <div class="type">
+            <span>스포츠<br />국내축구</span>
+            <img src="./RememoryIcon.png" alt="썸네일" />
+            <span>한국국대1</span>
+            <span>등록완료</span>
+            <span>2024.03.27</span>
+            <span>2024.03.25</span>
+          </div>
+          <div class="management">
+            <a href="">수정</a>
+            <a href="">삭제</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <div class="type">
+            <span>스포츠<br />국내축구</span>
+            <img src="./RememoryIcon.png" alt="썸네일" />
+            <span>한국국대2</span>
+            <span>등록완료</span>
+            <span>2024.03.17</span>
+            <span>2024.02.28</span>
+          </div>
+          <div class="management">
+            <a href="">수정</a>
+            <a href="">삭제</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <div class="type">
+            <span>경제<br />세계경제</span>
+            <img src="./RememoryIcon.png" alt="썸네일" />
+            <span>월드컵</span>
+            <span>등록완료</span>
+            <span>2024.03.14</span>
+            <span>2024.02.25</span>
+          </div>
+          <div class="management">
+            <a href="">수정</a>
+            <a href="">삭제</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <div class="type">
+            <span>스포츠<br />국내축구</span>
+            <img src="./RememoryIcon.png" alt="썸네일" />
+            <span>한국국대20</span>
+            <span>등록완료</span>
+            <span>2024.03.01</span>
+            <span>2024.02.25</span>
+          </div>
+          <div class="management">
+            <a href="">수정</a>
+            <a href="">삭제</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pagination">
+      <ul>
+        <li><a href="">&lt;</a></li>
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">6</a></li>
+        <li><a href="">7</a></li>
+        <li><a href="">8</a></li>
+        <li><a href="">9</a></li>
+        <li><a href="">10</a></li>
+        <li><a href="">&gt;</a></li>
+      </ul>
+    </div>
+
+    <section class="searchAndNewAriticle">
+      <div class="searchContainer">
+        <input type="text" placeholder="검색어 입력" />
+        <button>검색</button>
+      </div>
+
+      <div class="newArticleLink">
+        <a href="clicked_article_registration.html">기사 등록</a>
+      </div>
+    </section>
+  </body>
+</html>

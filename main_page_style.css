@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #c0aee6;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerLogo {
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  padding: 0px 10px 20px 0px;
+  text-align: center;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menuLinks {
+  display: flex;
+}
+
+.menuLinks a {
+  margin-left: 15px;
+}
+
+.gnbMenu {
+  font-size: 20px;
+  left: 0px;
+}
+
+.navDepth01 li {
+  padding: 12px;
+}
+
+.navDepth01 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navDepth01 li:hover {
+  border-bottom: 3px solid blueviolet;
+}
+
+.navDepth01 .li.sport .depthBox02 {
+  display: none;
+}
+
+.navDepth01 .li.sport {
+  position: relative;
+}
+
+.navDepth01 .li.sport:hover .depthBox02 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+}
+
+.depthBox02 {
+  position: absolute;
+  background-color: #c0aee6;
+  border: 1px solid #ccc;
+  left: 0px;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.navDepth02 {
+  display: flex;
+  font-size: 14px;
+}
+
+.navDepth02 li {
+  width: 70px;
+  margin: 0px 15px;
+  flex: 1;
+}
+
+.navDepth02 li:hover {
+  background-color: #807499;
+}
+
+.listType001 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0;
+}
+
+.listType001 ul li {
+  border-bottom: 1px solid lightgray;
+}
+
+.itemBox01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.imgCon img {
+  width: 150px;
+  height: auto;
+}
+
+.titleNews {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contentNews {
+  color: #666;
+}
+
+.pagination {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.pagination li a:hover {
+  background-color: #f0f0f0;
+}

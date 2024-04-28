@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #c0aee6;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerLogo {
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  padding: 0px 10px 20px 0px;
+  text-align: center;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menuLinks {
+  display: flex;
+}
+
+.menuLinks a {
+  margin-left: 15px;
+}
+
+.gnbMenu {
+  font-size: 20px;
+  left: 0px;
+}
+
+.navDepth01 li {
+  padding: 12px;
+}
+
+.navDepth01 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navDepth01 li:hover {
+  border-bottom: 3px solid blueviolet;
+}
+
+.navDepth01 .li.sport .depthBox02 {
+  display: none;
+}
+
+.navDepth01 .li.sport {
+  position: relative;
+}
+
+.navDepth01 .li.sport:hover .depthBox02 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+}
+
+.depthBox02 {
+  position: absolute;
+  background-color: #c0aee6;
+  border: 1px solid #ccc;
+  left: 0px;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.navDepth02 {
+  display: flex;
+  font-size: 14px;
+}
+
+.navDepth02 li {
+  width: 70px;
+  margin: 0px 15px;
+  flex: 1;
+}
+
+.navDepth02 li:hover {
+  background-color: #807499;
+}
+
+.article_management {
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.type span {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.management {
+  width: 20%;
+  text-align: right;
+}
+
+#container {
+  padding: 0;
+}
+
+#container section .management {
+  margin-right: 70px;
+}
+
+#container ul li .management {
+  margin-right: 40px;
+}
+
+#container ul li .management a {
+  margin-left: 20px;
+}
+
+.management span {
+  flex-basis: 20%;
+}
+
+#container ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+#container li span,
+#container img {
+  width: 120px;
+}
+
+.pagination {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.pagination ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.pagination li a:hover {
+  background-color: #f0f0f0;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchContainer input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.searchContainer button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.newArticleLink {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newArticleLink a {
+  padding: 5px 10px;
+}
+
+.searchContainer button,
+.newArticleLink a {
+  border-radius: 7px;
+  background-color: #c0aee6;
+}
+
+.searchAndNewAriticle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchAndNewAriticle div {
+  margin-left: 15px;
+}
